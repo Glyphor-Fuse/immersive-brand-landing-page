@@ -1,5 +1,43 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Glyphor Fuse Project</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAIZEN | Tokyo Neo-Minimalist Brand</title>
+    <meta name="description" content="A digital sanctuary mirroring the surgical precision of Japanese pour-over culture. Tokyo Neo-Minimalism meets Wabi-Sabi Industrial design.">
+    
+    <!-- Google Fonts: Shippori Mincho for Kanji/Accents & Inter as a Neue Haas Grotesk alternative -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+      :root {
+        --color-obsidian: #0A0A0A;
+        --color-concrete: #8E8E8E;
+        --color-paper: #FDFCF8;
+      }
+      
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--color-paper);
+        color: var(--color-obsidian);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+
+      /* Custom selection color */
+      ::selection {
+        background-color: var(--color-obsidian);
+        color: var(--color-paper);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
