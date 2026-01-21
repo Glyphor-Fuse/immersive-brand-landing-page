@@ -62,7 +62,7 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 1.2, ease: [0.77, 0, 0.175, 1] }}
             >
               <img 
-                src="<span className="block"><img src="https://images.pexels.com/photos/33999713/pexels-photo-33999713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Close-up of a modern concrete building entrance with minimalist design and natural light." loading="lazy" /><a href="https://www.pexels.com/photo/modern-concrete-building-entrance-architecture-33999713/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by 정규송 Nui MALAMA on Pexels</a></span>" 
+                src="https://images.pexels.com/photos/33999713/pexels-photo-33999713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
                 alt="Minimalist Industrial Architecture"
                 className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-[2000ms]"
               />

@@ -73,7 +73,7 @@ const Hero = () => {
               className="absolute right-0 top-0 w-1/3 aspect-[3/4] hidden lg:block"
             >
               <img 
-                src="<span className="block"><img src="https://images.pexels.com/photos/34192646/pexels-photo-34192646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Unique Brutalist architecture with an abstract concrete sculpture on an exterior wall." loading="lazy" /><a href="https://www.pexels.com/photo/brutalist-building-with-concrete-sculpture-detail-34192646/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by eevnull on Pexels</a></span>" 
+                src="https://images.pexels.com/photos/34192646/pexels-photo-34192646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
                 alt="Architecture" 
                 className="w-full h-full object-cover grayscale"
               />
@@ -123,7 +123,7 @@ const FeatureGrid = () => {
             viewport={{ once: true }}
           >
             <img 
-              src="<span className="block"><img src="https://images.pexels.com/photos/34215534/pexels-photo-34215534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Black and white industrial scene with dramatic lighting and a person walking indoors." loading="lazy" /><a href="https://www.pexels.com/photo/moody-industrial-interior-with-person-walking-34215534/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Özlem Aldal on Pexels</a></span>" 
+              src="https://images.pexels.com/photos/34215534/pexels-photo-34215534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
               alt="Industrial Space" 
               className="w-full h-full object-cover grayscale"
             />
@@ -158,13 +158,13 @@ const ProductShowcase = () => {
           <div className="grid grid-cols-2 gap-8">
             <div className="space-y-4">
               <div className="h-48 bg-[#8E8E8E]/20 relative overflow-hidden">
-                <img src="<span className="block"><img src="https://images.pexels.com/photos/14563996/pexels-photo-14563996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A unique black ceramic vase displayed on white fabric, showcasing artistic craftsmanship." loading="lazy" /><a href="https://www.pexels.com/photo/ceramic-vase-on-white-sheet-14563996/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Onur Kaya on Pexels</a></span>" alt="Object 1" className="w-full h-full object-cover mix-blend-luminosity hover:scale-105 transition-transform duration-700" />
+                <img src="https://images.pexels.com/photos/14563996/pexels-photo-14563996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Object 1" className="w-full h-full object-cover mix-blend-luminosity hover:scale-105 transition-transform duration-700" />
               </div>
               <h4 className="font-mono text-xs uppercase tracking-widest">Kuro Vase</h4>
             </div>
             <div className="space-y-4 pt-12">
               <div className="h-48 bg-[#8E8E8E]/20 relative overflow-hidden">
-                <img src="<span className="block"><img src="https://images.pexels.com/photos/34192646/pexels-photo-34192646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Unique Brutalist architecture with an abstract concrete sculpture on an exterior wall." loading="lazy" /><a href="https://www.pexels.com/photo/brutalist-building-with-concrete-sculpture-detail-34192646/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by eevnull on Pexels</a></span>" alt="Object 2" className="w-full h-full object-cover mix-blend-luminosity hover:scale-105 transition-transform duration-700" />
+                <img src="https://images.pexels.com/photos/34192646/pexels-photo-34192646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Object 2" className="w-full h-full object-cover mix-blend-luminosity hover:scale-105 transition-transform duration-700" />
               </div>
               <h4 className="font-mono text-xs uppercase tracking-widest">Sosei Lamp</h4>
             </div>
@@ -172,7 +172,7 @@ const ProductShowcase = () => {
         </div>
         <div className="relative h-[80vh]">
           <img 
-            src="<span className="block"><img src="https://images.pexels.com/photos/6821738/pexels-photo-6821738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Modern industrial-style interior with quote on the wall and mirror, perfect for design inspiration." loading="lazy" /><a href="https://www.pexels.com/photo/clock-in-room-6821738/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Kmws 246 on Pexels</a></span>" 
+            src="https://images.pexels.com/photos/6821738/pexels-photo-6821738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
             alt="Interior" 
             className="w-full h-full object-cover grayscale opacity-80"
           />
